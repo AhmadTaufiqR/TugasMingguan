@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.taufiq.aplicationtest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplicationTest">
+        <activity
+            android:name=".AndroidIntentExplisit.SecondExpliciteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListCountriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentAstivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecycleViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidIntentExplisit.IntentExpliciteActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntentCoding.IntentActivity"
+            android:exported="true">
+                        <intent-filter tools:ignore="AppLinkUrlError">
+                            <category android:name="android.intent.category.DEFAULT"/>
+                            <action android:name="android.intent.action.MAIN"/>
+                            <data android:scheme="http" />
+                        </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

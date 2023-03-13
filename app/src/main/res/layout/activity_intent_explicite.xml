@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidIntentExplisit.IntentExpliciteActivity">
+
+    <Button
+        android:id="@+id/buttonList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List"
+        app:icon="@drawable/ic_list_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Frag"
+        app:icon="@drawable/ic_layers_activity"
+        app:layout_constraintEnd_toEndOf="@+id/buttonList"
+        app:layout_constraintStart_toStartOf="@+id/buttonList"
+        app:layout_constraintTop_toBottomOf="@+id/buttonList" />
+
+    <Button
+        android:id="@+id/buttonLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Log"
+        app:icon="@drawable/ic_account_circle"
+        app:layout_constraintBottom_toTopOf="@+id/buttonList"
+        app:layout_constraintEnd_toEndOf="@+id/buttonList"
+        app:layout_constraintStart_toStartOf="@+id/buttonList" />
+
+    <Button
+        android:id="@+id/buttonRecy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Recy"
+        app:icon="@drawable/ic_credit_card"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLog"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLog"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonLog" />
+
+    <Button
+        android:id="@+id/buttonImplisit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Implisit"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRecy"
+        app:layout_constraintEnd_toEndOf="@+id/buttonRecy"
+        app:layout_constraintStart_toStartOf="@+id/buttonRecy" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AplicationTest</string>
+    <string name="submit">Submit</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="Alamat">Alamat</string>
+    <string name="Tanggal">Tanggal</string>
+    <string name="Login">Login</string>
+    <string name="home">Home</string>
+    <string name="notification1">NOTIFICATION</string>
+    <string name="cart">Cart</string>
+    <string name="account">Account</string>
+
+    <string-array name="countris_array">
+        <item>Afganistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Indonesia</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accounts">ACCOUNTS</string>
+    <string name="shopping_cart">SHOPPING CART</string>
+    <string name="notification">Notification</string>
+</resources>
